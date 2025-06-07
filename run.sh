@@ -23,7 +23,7 @@ import sys
 
 def calculate_reimbursement(trip_duration_days, miles_traveled, total_receipts_amount):
     days = int(trip_duration_days)
-    miles = int(miles_traveled)
+    miles = float(miles_traveled)
     receipts = float(total_receipts_amount)
     
     # Simple linear base model
@@ -91,7 +91,7 @@ import sys
 
 def calculate_reimbursement(trip_duration_days, miles_traveled, total_receipts_amount):
     days = int(trip_duration_days)
-    miles = int(miles_traveled)
+    miles = float(miles_traveled)
     receipts = float(total_receipts_amount)
     
     # Simple linear base model
